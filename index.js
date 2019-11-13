@@ -11,7 +11,7 @@ const youtube = require('./youtube');
 rtm.on('message', (message) => {
   const { channel } = message;
   const { text } = message;
-
+console.log(message.user);
   switch (text) {
     case '놀이':
       play(rtm, channel);
