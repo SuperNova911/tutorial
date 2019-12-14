@@ -20,7 +20,7 @@ rtm.on('message', (message) => {
       youtube(rtm, channel);
       break;
     default:
-		  rtm.sendMessage('안녕하세요. 놀이, 유튜브 중에 말씀해주세요 XD', channel);
+		  rtm.sendMessage('Hello. 놀이, 유튜브 중에 말씀해주세요 XD', channel);
       break;
   }
 });
