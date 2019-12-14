@@ -22,7 +22,7 @@ rtm.on('message', (message) => {
   if (message.user == testUser) {
     switch (status) {
       case 1:
-        if (text != '안녕하세요. 놀이, 유튜브 중에 말씀해주세요 XD') {
+        if (text != 'Hello. 놀이, 유튜브 중에 말씀해주세요 XD') {
 	  console.log('테스트 실패: 기본 메시지');
 	  process.exit(1);
         }
